@@ -1,0 +1,18 @@
+.wrapper {
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    padding: 14px 16px;
+    margin-top: 12px;
+    line-height: 16px;
+    font-size: 1.7rem;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+
+    &:focus {
+        border-color: var(--primary);
+        caret-color: var(--primary);
+    }
+}

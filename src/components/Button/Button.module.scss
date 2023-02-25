@@ -1,0 +1,29 @@
+.wrapper {
+    display: inline-block;
+    cursor: pointer;
+    width: 102px;
+    min-width: 38px;
+    line-height: 30px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 1.6rem;
+    border-radius: 6px;
+    color: var(--primary);
+}
+
+.primary {
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+
+    &:hover {
+        background-color: #156bdb;
+    }
+}
+
+.large {
+    width: 180px;
+    line-height: 48px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}

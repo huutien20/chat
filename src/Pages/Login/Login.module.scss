@@ -1,0 +1,43 @@
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 370px;
+    height: 374px;
+    padding: 16px 14px;
+    transform: translate(-50%, -50%);
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+
+    .login-btn {
+        margin-top: 12px;
+        width: 100%;
+    }
+}
+
+.sign-up {
+    text-align: center;
+
+    div {
+        border-top: 1px solid #ccc;
+        margin: 20px 0;
+    }
+
+    .sign-up-btn {
+        border: none;
+        color: var(--white);
+        background-color: #42b72a;
+
+        &:hover {
+            background-color: #37aa20;
+        }
+    }
+}
+
+.heading {
+    color: var(--primary);
+    font-size: 2.6rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
